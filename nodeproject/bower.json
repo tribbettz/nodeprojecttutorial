@@ -1,0 +1,30 @@
+{
+  "name": "workspace",
+  "description": "Tutorial for Node.js: 0 to Webapps",
+  "main": "app.js",
+  "authors": [
+    "Zachary Tribbett <tribbettz.dev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tribbettz/nodeprojecttutorial",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  
+  "overrides" : {
+    "bootstrap" : {
+      "main" : [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}
